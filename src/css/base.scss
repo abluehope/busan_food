@@ -1,0 +1,150 @@
+.Header {
+  padding: 40px 0;
+}
+
+.Header h1 {
+  margin: 0 0 24px 0;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Header h1 span {
+  color: #ffc200;
+}
+
+.GuList {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.main_map {
+  margin: 0 0 40px 0;
+}
+
+.sub_map {
+  margin: 40px auto;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.list .img_box {
+  margin: 0 0 8px 0;
+
+  overflow: hidden;
+}
+
+.list .img_box img {
+  transition: 0.5s;
+}
+
+.list li:hover .img_box img {
+  transform: scale(1.1);
+}
+
+.list strong {
+  display: block;
+  font-weight: 600;
+  text-align: center;
+}
+
+.gu_list {
+  display: grid;
+  //   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+
+  margin: 0 0 40px 0;
+}
+
+.gu_list li {
+  display: flex;
+  gap: 16px;
+}
+
+.gu_list li > * {
+  flex: 1;
+}
+
+.gu_list .txt_box ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.gu_list .txt_box strong {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.table {
+  width: 100%;
+  border-top: 2px solid #333;
+  border-bottom: 1px solid #333;
+
+  border-collapse: collapse;
+}
+
+.table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.table td {
+  border-bottom: 1px solid #ddd;
+  height: 30px;
+  padding: 0 16px;
+}
+
+.table td:first-child {
+  text-align: justify;
+}
+
+.table td ~ td {
+  border-left: 1px solid #ddd;
+}
+
+.sub_wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url(../images/bg.jpg) no-repeat center center/cover;
+  height: 300px;
+}
+
+.sub_wrap::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.sub_wrap h2 {
+  position: relative;
+  font-size: 32px;
+  font-weight: 200;
+  color: #fff;
+}
+
+.sub_wrap h2 strong {
+  font-weight: 500;
+}
+
+.Footer {
+  padding: 40px 0;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
