@@ -66,8 +66,16 @@
 }
 
 .gu_list li {
+  padding: 16px;
   display: flex;
   gap: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.gu_list li:hover {
+  box-shadow: 0 0 24px rgba(34, 34, 34, 0.4);
+  transition: 0.5s;
 }
 
 .gu_list li > * {
@@ -79,9 +87,21 @@
   flex-direction: column;
   justify-content: center;
   gap: 8px;
+  height: 100%;
 }
 
-.gu_list .txt_box strong {
+.gu_list .txt_box ul li {
+  display: block;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+
+.gu_list .txt_box ul .addr {
+  margin: 0 0 8px 0;
+}
+
+.gu_list .txt_box ul li strong {
   font-size: 20px;
   font-weight: 600;
 }

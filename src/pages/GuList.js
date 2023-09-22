@@ -78,8 +78,13 @@ const GuList = ({ food }) => {
                         <strong>{it.MAIN_TITLE}</strong>
                       </Link>
                     </li>
-                    <li>{it.ADDR1}</li>
-                    <li>{it.USAGE_DAY_WEEK_AND_TIME}</li>
+                    <li className="addr">{it.ADDR1}</li>
+                    <li>
+                      <span>주메뉴</span> {it.RPRSNTV_MENU}
+                    </li>
+                    <li>
+                      <span>영업시간</span> {it.USAGE_DAY_WEEK_AND_TIME}
+                    </li>
                   </ul>
                 </div>
               </li>
