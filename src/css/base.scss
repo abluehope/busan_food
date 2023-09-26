@@ -1,5 +1,5 @@
 .Header {
-  padding: 40px 0;
+  padding: 56px 0;
 }
 
 .Header h1 {
@@ -76,11 +76,6 @@
   border-radius: 8px;
 }
 
-.gu_list li:hover {
-  box-shadow: 0 0 24px rgba(34, 34, 34, 0.4);
-  transition: 0.5s;
-}
-
 .gu_list li > * {
   flex: 1;
 }
@@ -97,7 +92,6 @@
   display: block;
   border: none;
   padding: 0;
-  box-shadow: none;
 }
 
 .gu_list .txt_box ul .addr {
@@ -107,6 +101,20 @@
 .gu_list .txt_box ul li strong {
   font-size: 20px;
   font-weight: 600;
+}
+
+.gu_list .txt_box ul li span {
+  font-weight: 500;
+}
+
+.gu_list .txt_box ul li span::after {
+  content: "";
+  display: inline-block;
+  margin: 0 2px 0 6px;
+  width: 1px;
+  height: 12px;
+  vertical-align: -1px;
+  background: #777;
 }
 
 .table {
