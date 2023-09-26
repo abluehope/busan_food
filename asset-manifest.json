@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/busan_food/static/css/main.ec8f5d2d.css",
+    "main.js": "/busan_food/static/js/main.85bde856.js",
+    "static/media/bg.jpg": "/busan_food/static/media/bg.a0c625d916c98aa170ca.jpg",
+    "index.html": "/busan_food/index.html",
+    "main.ec8f5d2d.css.map": "/busan_food/static/css/main.ec8f5d2d.css.map",
+    "main.85bde856.js.map": "/busan_food/static/js/main.85bde856.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec8f5d2d.css",
+    "static/js/main.85bde856.js"
+  ]
+}
